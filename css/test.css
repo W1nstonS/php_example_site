@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+    background-size: 400% 400%;
+    animation: bganimation 15s infinite;
+  }
+
+  @keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+  .upload_block{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 550px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .text{
+    /*padding-bottom: 10px;*/
+    margin: 5px;
+    height: auto;
+    width: auto;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+  }
+  .btn{
+    height: auto;
+    width: auto;
+    position: relative;
+    background: white;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .update_blockk{
+    padding: 10px;
+  }
+  h5{
+    font-size: 20px;
+  }
+  .back{
+    text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  height: 90px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+    /* weight: 100px;
+    height: auto;
+    background: white;
+    border-color: black;
+    border-radius: 12px; */
+
+  }
