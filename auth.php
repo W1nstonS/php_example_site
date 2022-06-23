@@ -8,7 +8,7 @@ $user = $result->fetch_assoc();
 if (count($user) == 0) {
   echo "Не зашел сорян";
   exit();
-  // code...
+  
 }
 setcookie('user', $user['login'], time() + 3600, "/");
 setcookie('id', $user['id'], time() + 3600, "/");

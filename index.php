@@ -3,7 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, charset="UTF-8"">
 <link rel="stylesheet" href="css/style.css">
-<!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
 </head>
 <body>
 <div class="topnav">
