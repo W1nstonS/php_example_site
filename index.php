@@ -30,8 +30,7 @@ include "database.php";
 $result = mysqli_query($induction, "SELECT * FROM `test_post`");
 
 while ($card = mysqli_fetch_assoc($result)) {
-  // print_r($card['topic']);
-  // echo "<br>";
+
 ?>
 
   <div class="news">
